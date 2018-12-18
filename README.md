@@ -1,0 +1,2 @@
+# GETBPQDATA
+Gets bpq data 
