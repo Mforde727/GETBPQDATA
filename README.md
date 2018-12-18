@@ -1,5 +1,5 @@
 import pandas as pd
 
-tables = pd.read_html("https://central.blueplanet.com/quote-ui/#/quotes")
+calls_df, = pd.read_html("https://central.blueplanet.com/quote-ui/#/quotes", header=0, parse_dates=["Call Date"])
 
-print(tables[0])
+print(calls_df)
